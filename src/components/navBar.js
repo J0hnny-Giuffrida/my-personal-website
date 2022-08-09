@@ -2,20 +2,18 @@ import React from "react";
 
 function nav_Bar() {
   return (
-    <div className="w-1/8 h-screen border-sky-400 border-2 flex-none">
-      <div className="w-full h-1/4 border-rose-400 border-2 text-zinc-50 text-center">
-        <div className="rotate-90 border-rose-400 border-2 mt-20">About Me</div>
+    <div className="w-screen h-1/8 grid grid-cols-4 pt-5 pb-3 text-xl">
+      <div className="flex-none w-full h-full  text-zinc-50 text-center hover:text-sky-400">
+        About Me
       </div>
-      <div className="w-full h-1/4 border-rose-400 border-2 text-zinc-50 text-center">
-        <div className="rotate-90 border-rose-400 border-2 mt-20">Skills</div>
+      <div className="flex-none w-full h-full text-zinc-50 text-center hover:text-sky-400">
+        Skills
       </div>
-      <div className="w-full h-1/4 border-rose-400 border-2 text-zinc-50 text-center">
-        <div className="rotate-90 border-rose-400 border-2 mt-20">
-          Portfolio
-        </div>
+      <div className="flex-none w-full h-full  text-zinc-50 text-center hover:text-sky-400">
+        Portfolio
       </div>
-      <div className="w-full h-1/4 border-rose-400 border-2 text-zinc-50 text-center">
-        <div className="rotate-90 border-rose-400 border-2 mt-20">Resume</div>
+      <div className="flex-none w-full h-full  text-zinc-50 text-center hover:text-sky-400">
+        Resume
       </div>
     </div>
   );
