@@ -5,9 +5,9 @@ import Home from "./components/homeScreen";
 
 function App() {
   return (
-    <div className="bg-zinc-900 w-screen h-screen">
+    <div id="content" className="bg-zinc-900 w-screen h-screen">
       <Nav />
-      <Home />
+      <main className="h-screen w-2/3 px-40 container mx-auto"></main>
     </div>
   );
 }
