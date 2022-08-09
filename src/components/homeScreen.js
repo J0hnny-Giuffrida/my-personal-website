@@ -11,7 +11,7 @@ function homeScreen() {
         />
       </div>
       <div className="text-6xl font-bold text-zinc-50 text-left w-4/5 h-3/5 col-span-3 mt-5">
-        <p className="hover:text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-700">
+        <p className="hover:text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-400">
           Hi, my name is Johnny Giuffrida. I'm a Fullstack Developer from San
           Diego, California!
         </p>
