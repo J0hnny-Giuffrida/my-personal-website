@@ -1,23 +1,39 @@
 import React from 'react'
 
 function About_Me() {
-    return (
-        <div className="w-4/5 h-43 grid grid-cols-4 gap-4 bg-zinc-800 rounded-[30px] ml-40 mt-20">
-            <div className="w-96">
+  return (
+    <section className='flex flex-row w-3/5 h-auto mx-auto ml-24 font-roboto mt-96 py-36'>
+      <div className='w-7/12 h-full flex flex-col border-l-4 border-sky-400 pl-5'>
+      <h2 className='text-sky-50 text-4xl font-bold'><a className="text-sky-400">01.</a> About Me</h2>
+      <div>
+        <p className='text-zinc-500 text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue felis lacus, in aliquet lacus gravida convallis. Nunc suscipit ullamcorper dui ac malesuada. Praesent eu mi mi. Cras diam augue.</p>
+        <p className='text-zinc-500 text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue felis lacus, in aliquet lacus gravida convallis. Nunc suscipit ullamcorper dui ac malesuada. Praesent eu mi mi. Cras diam augue.</p>
+        <p className='text-zinc-500 text-xl mt-8'>Here are a few of the languages I've been working with:</p>
+      </div>
+      <div className='grid grid-cols-2'>
+      <ul className='text-zinc-500 text-base font-bold mt-8 list-disc list-inside marker:text-sky-500'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        
+      </ul>
+      <ul className='text-zinc-500 text-base font-bold mt-8 list-disc list-inside marker:text-sky-500'>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+      </div>
+      </div>
+      <div className='w-5/12 h-full flex flex-col pl-5'>
+        <div className="w-96 border-r-4 border-sky-400 pr-5">
                 <img
-                    className="h-96 w-auto rounded-[30px] rounded-r-none rounded-b-none rounded-bl-[30px]"
+                    className="h-96 w-auto rounded-md shadow-xl transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105"
                     src="me.jpg"
                     alt="Headshot of Johnny"
                     />
       </div>
-      <div className="text-6xl font-bold text-zinc-50 text-left w-4/5 h-3/5 col-span-3 mt-5">
-        <p className="hover:text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-400">
-          Hi, my name is Johnny Giuffrida. I'm a Fullstack Developer from San
-          Diego, California!
-        </p>
       </div>
-    </div>
-    )
+    </section>
+  )
 }
 
-export default About_Me
+export default About_Me;
