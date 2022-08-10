@@ -2,21 +2,17 @@ import React from "react";
 
 function homeScreen() {
   return (
-    <div className="w-4/5 h-43 grid grid-cols-4 gap-4 bg-zinc-800 rounded-[30px] ml-40 mt-20">
-      <div className="w-96">
-        <img
-          className="h-96 w-auto rounded-[30px] rounded-r-none rounded-b-none rounded-bl-[30px]"
-          src="me.jpg"
-          alt="Headshot of Johnny"
-        />
+    <section className='flex flex-col w-4/5 h-1/3 mx-auto mt-40 mr-40'>
+      <div className="flex shrink">
+        <h1 className='font-roboto font-semibold text-sky-400 text-xl flex shrink mb-8 ml-1'>Hi, my name is</h1>
       </div>
-      <div className="text-6xl font-bold text-zinc-50 text-left w-4/5 h-3/5 col-span-3 mt-5">
-        <p className="hover:text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-400">
-          Hi, my name is Johnny Giuffrida. I'm a Fullstack Developer from San
-          Diego, California!
-        </p>
+      <div className="flex shrink">
+        <h2 className='font-roboto text-8xl text-violet-50 pb-2 flex shrink font-bold hover:text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-400'>Johnny Giuffrida.</h2>
       </div>
-    </div>
+      <div className="flex shrink">
+        <p className='font-roboto text-purple-50 text-xl flex shrink mt-5'>I'm a FullStack Developer and Software Engineer from North Carolina.</p>
+      </div>
+    </section>
   );
 }
 

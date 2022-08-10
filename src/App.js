@@ -7,7 +7,9 @@ function App() {
   return (
     <div id="content" className="bg-zinc-900 w-screen h-screen">
       <Nav />
-      <main className="h-screen w-2/3 px-40 container mx-auto"></main>
+      <main className="h-screen w-4/5 px-20 container mx-auto">
+        <Home />
+      </main>
     </div>
   );
 }

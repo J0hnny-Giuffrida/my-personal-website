@@ -2,25 +2,25 @@ import React from "react";
 
 function nav_Bar() {
   return (
-    <header className="w-screen h-28 bg-zinc-900 px-10">
+    <header className="font-roboto w-screen h-28 bg-zinc-900 px-10">
       <nav className="w-screen h-1/8 grid grid-cols-12 text-lg text-center pt-10">
-        <div className="flex-none w-full h-full text-zinc-50 text-center hover:text-sky-400">
-          <button>
+        <div className="flex-none w-full h-full text-zinc-50 text-center">
+          <button className='hover:text-sky-400 transition ease-in-out delay-100 hover:scale-110'>
             <a className="text-sky-400">01.</a> About Me
           </button>
         </div>
-        <div className="flex-none w-full h-full text-zinc-50 text-center hover:text-violet-400">
-          <button>
+        <div className="flex-none w-full h-full text-zinc-50 text-center">
+          <button className='hover:text-violet-400 transition ease-in-out delay-100 hover:scale-110'>
             <a className="text-violet-400">02.</a> Skills
           </button>
         </div>
-        <div className="flex-none w-full h-full  text-zinc-50 text-center hover:text-purple-400">
-          <button>
+        <div className="flex-none w-full h-full  text-zinc-50 text-center">
+          <button className='hover:text-purple-400 transition ease-in-out delay-100 hover:scale-110'>
             <a className="text-purple-400">03.</a> Portfolio
           </button>
         </div>
-        <div className="flex-none w-full h-full  text-zinc-50 text-center hover:text-pink-400">
-          <button>
+        <div className="flex-none w-full h-full  text-zinc-50 text-center">
+          <button className='hover:text-pink-400 transition ease-in-out delay-100 hover:scale-110'>
             <a className="text-pink-400">04.</a> Resume
           </button>
         </div>
