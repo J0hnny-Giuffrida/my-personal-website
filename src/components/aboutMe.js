@@ -2,7 +2,7 @@ import React from 'react'
 
 function About_Me() {
   return (
-    <section className='flex flex-row w-3/5 h-auto mx-auto ml-24 font-roboto mt-96 py-36'>
+    <section id="aboutMe" className='flex flex-row w-3/5 h-auto mx-auto ml-24 font-roboto mt-96 py-36'>
       <div className='w-7/12 h-full flex flex-col border-l-4 border-sky-400 pl-5'>
       <h2 className='text-sky-50 text-4xl font-bold'><a className="text-sky-400">01.</a> About Me</h2>
       <div>
