@@ -4,7 +4,7 @@ function About_Me() {
   return (
     <section id="aboutMe" className='flex flex-row w-3/5 h-auto mx-auto ml-24 font-roboto mt-96 py-36'>
       <div className='w-7/12 h-full flex flex-col border-l-4 border-sky-400 pl-5'>
-      <h2 className='text-sky-50 text-4xl font-bold'><a className="text-sky-400">01.</a> About Me</h2>
+      <h2 className='text-sky-50 text-4xl font-bold'><span className="text-sky-400">01.</span> About Me</h2>
       <div>
         <p className='text-zinc-500 text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue felis lacus, in aliquet lacus gravida convallis. Nunc suscipit ullamcorper dui ac malesuada. Praesent eu mi mi. Cras diam augue.</p>
         <p className='text-zinc-500 text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue felis lacus, in aliquet lacus gravida convallis. Nunc suscipit ullamcorper dui ac malesuada. Praesent eu mi mi. Cras diam augue.</p>
