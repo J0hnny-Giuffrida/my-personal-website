@@ -15,9 +15,9 @@ function nav_Bar() {
           </a>
         </div>
         <div className="flex-none w-full h-full  text-zinc-50 text-center">
-          <button className='hover:text-purple-400'>
-            <a className="text-purple-400">03.</a> Portfolio
-          </button>
+          <a className='hover:text-purple-400' href='#portfolio'>
+            <button className="text-purple-400">03.</button> Portfolio
+          </a>
         </div>
         <div className="flex-none w-full h-full  text-zinc-50 text-center">
           <button className='hover:text-pink-400'>

@@ -13,7 +13,7 @@ function homeScreen() {
         <h3 className='font-roboto text-zinc-500 text-6xl flex shrink mt-5'>I type. A lot.</h3>
       </div>
       <div className='w-1/2'>
-        <p className='font-roboto text-zinc-500 text-xl mt-8'>I'm a software engineer from North Carolina with experience in a wide variety of both front and back-end coding languages.</p>
+        <p className='font-roboto text-zinc-500 text-xl mt-8'>I'm a software developer from North Carolina with experience in a wide variety of both front and back-end coding languages.</p>
       </div>
     </section>
   );

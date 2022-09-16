@@ -3,7 +3,7 @@ import {useState} from 'react';
 import { TexasAM, NCState } from './schools'
 
 function MyEducation() {
-    const [divText, setDivText] = useState(TexasAM())
+    const [divText, setDivText] = useState(NCState())
     
     function buttonClickAM() {
         setDivText(TexasAM())
@@ -20,8 +20,9 @@ function MyEducation() {
         </div>
         <div className='flex flex-row h-full w-full'>
             <div className='grid grid-rows-5 h-full w-1/5'>
-                <button onClick={buttonClickAM} className='default:bg-zinc-800 default:text-violet-400 default:border-violet-400 text-zinc-500 text-xl text-left pl-5 border-l-2 hover:bg-zinc-800 hover:text-violet-400 hover:border-violet-400 focus:bg-zinc-800 focus:text-violet-400 focus:border-violet-400 default'>A&amp;M</button>
+                
                 <button onClick={buttonClickNC} className='text-zinc-500 text-xl text-left pl-5 border-l-2 hover:bg-zinc-800 hover:text-violet-400 hover:border-violet-400 focus:bg-zinc-800 focus:text-violet-400 focus:border-violet-400'>NC State</button>
+                <button onClick={buttonClickAM} className='default:bg-zinc-800 default:text-violet-400 default:border-violet-400 text-zinc-500 text-xl text-left pl-5 border-l-2 hover:bg-zinc-800 hover:text-violet-400 hover:border-violet-400 focus:bg-zinc-800 focus:text-violet-400 focus:border-violet-400 default'>A&amp;M</button>
             </div>
             <div className='h-auto w-4/5 text-zinc-500 text-xl pl-5 border-r-4 border-violet-400 pr-4'>
                 {divText}

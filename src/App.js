@@ -1,10 +1,10 @@
 import "./App.css";
 import React from "react";
-import {useState} from 'react';
 import Nav from "./components/navBar";
 import Home from "./components/homeScreen";
 import About_Me from "./components/aboutMe";
 import Education from "./components/myEducation";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Home />
         <About_Me />
         <Education />
+        <Portfolio />
       </main>
     </div>
   );

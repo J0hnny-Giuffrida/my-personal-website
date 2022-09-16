@@ -10,16 +10,23 @@ function About_Me() {
         <p className='text-zinc-500 text-xl mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue felis lacus, in aliquet lacus gravida convallis. Nunc suscipit ullamcorper dui ac malesuada. Praesent eu mi mi. Cras diam augue.</p>
         <p className='text-zinc-500 text-xl mt-8'>Here are a few of the languages I've been working with:</p>
       </div>
-      <div className='grid grid-cols-2'>
-      <ul className='text-zinc-500 text-base font-bold mt-8 list-disc list-inside marker:text-sky-500'>
+      <div className='grid grid-cols-3'>
+      <ul className='text-zinc-500 text-base mt-8 list-disc list-inside marker:text-sky-500'>
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
         
       </ul>
-      <ul className='text-zinc-500 text-base font-bold mt-8 list-disc list-inside marker:text-sky-500'>
+      <ul className='text-zinc-500 text-base mt-8 list-disc list-inside marker:text-sky-500'>
         <li>React</li>
+        <li>Redux</li>
         <li>Node.js</li>
+        
+      </ul>
+      <ul className='text-zinc-500 text-base mt-8 list-disc list-inside marker:text-sky-500'>
+        <li>SQL</li>
+        <li>MongoDB</li>
+        <li>Python</li>
       </ul>
       </div>
       </div>
